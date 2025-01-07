@@ -34,5 +34,5 @@ sudo dpkg -i openledger-node-1.0.0.deb
 ```
 ## 3. Start node:
 ```Bash
-openledger-node --no-sandbox
+openledger-node
 ```
