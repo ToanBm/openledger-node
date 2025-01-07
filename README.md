@@ -9,6 +9,15 @@ Testnet Whitelist: Final Countdown!
 ```Bash
 wget https://raw.githubusercontent.com/0xtnpxsgt/Install-xrdp-on-linux-vps/refs/heads/main/install-script.sh && chmod +x install-script.sh && ./install-script.sh
 ```
+```Bash
+sudo usermod -aG docker USERNAMESAXRDP
+```
+```Bash
+newgrp docker
+sudo chown root:docker /var/run/docker.sock
+sudo chmod 660 /var/run/docker.sock
+```
+
 * Use Remote Desktop connect with your VPS
 * Login with User & Passworld
 * Right click to open Terminal
